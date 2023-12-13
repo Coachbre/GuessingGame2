@@ -15,7 +15,7 @@ void GetAnswer()
     // user gets 4 chances to guess the number
 
 
-    while (chances > 0)
+    while (chances > -1)
     {
          Console.WriteLine("What is your guess?!");
          string answer = Console.ReadLine();
